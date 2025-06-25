@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
@@ -23,7 +23,7 @@ def load_docs():
 @st.cache_resource
 def load_vectorstore(_docs):
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
-    return Chroma.from_documents(_docs, embeddings)
+    return FAISS.from_documents(_docs, embeddings)
 
 @st.cache_resource
 def load_llm():
