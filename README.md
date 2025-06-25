@@ -9,7 +9,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run rag_chatbot.py
-
+```
 
 <img width="1425" alt="Screenshot 2025-06-25 at 07 54 39" src="https://github.com/user-attachments/assets/674f13e3-375e-49ec-baf5-7941b9881ead" />
 <img width="1420" alt="Screenshot 2025-06-25 at 07 54 58" src="https://github.com/user-attachments/assets/933acfcc-9d0a-4e33-aa86-a4f98f1139f6" />
