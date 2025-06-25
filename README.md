@@ -57,6 +57,8 @@ my_rag_chatbot/
     └── document2.pdf
 ```
 
+## 📸 Examples
+
 <img width="1425" alt="Screenshot 2025-06-25 at 07 54 39" src="https://github.com/user-attachments/assets/f6c3bcde-af3c-4cc4-90b4-8a58533f07c6" />
 <img width="1420" alt="Screenshot 2025-06-25 at 07 54 58" src="https://github.com/user-attachments/assets/9138528e-a0d9-4504-8c8a-8a1343c9d540" />
 <img width="1438" alt="Screenshot 2025-06-25 at 07 55 17" src="https://github.com/user-attachments/assets/dd0855a8-154e-43ab-be5a-e8aaa5f208da" />
